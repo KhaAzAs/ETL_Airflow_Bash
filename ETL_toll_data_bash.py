@@ -1,3 +1,5 @@
+# This Python program doing job to do extract, transform
+# and load batch data from multiple source (csv, tsv, and fixed width) into single file
 # import the libraries
 from airflow.operators.bash import BashOperator
 from airflow import DAG
@@ -25,7 +27,8 @@ dag = DAG(
 
 # Define the tasks
 
-# extract_transform_load
+# extract_transform_load by calling Extract_Transform_data.sh
+# to do extract, transform, and load job
 extract_transform_load = BashOperator(
     task_id = 'extract_transform_load',
     bash_command = 'Extract_Transform_data.sh',

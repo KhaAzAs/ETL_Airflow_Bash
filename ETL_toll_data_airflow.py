@@ -32,21 +32,21 @@ unzip_data = BashOperator(
     dag=dag,
 )
 
-# Extract data from csv
+# Extract data from csv file
 extract_data_from_csv = BashOperator(
     task_id = 'extract_data_from_csv',
     bash_command = 'cut -d"," -f1-4 vehicle-data.csv > csv_data.csv',
     dag=dag,
 )
 
-# Extract data from tsv
+# Extract data from tsv file
 extract_data_from_tsv = BashOperator(
     task_id = 'extract_data_from_tsv',
     bash_command = 'cut -f5-7 tollplaza-data.tsv | tr "\t" "," > tsv_data.csv',
     dag=dag,
 )
 
-# Extract data from fixed width
+# Extract data from fixed width file
 extract_data_from_fixed_width = BashOperator(
     task_id = 'extarct_data_from_fixed_width',
     bash_command = 'cut -c59-67 payment-data.txt | tr " " "," > fixed_width_data.csv',
