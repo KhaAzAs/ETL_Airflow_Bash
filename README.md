@@ -10,3 +10,12 @@ In this assignment I will author an Apache Airflow DAG that will:
 * Extract data from a fixed width file
 * Transform the data
 * Load the transformed data into the staging area
+
+## Airflow Deployment
+### Task Pipeline
+
+### Submit the DAG
+
+### Unpause the DAG
+
+### Monitor the DAG
