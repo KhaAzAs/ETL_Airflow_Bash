@@ -13,7 +13,7 @@ In this assignment I will author an Apache Airflow DAG that will:
 
 ## Airflow Deployment
 ### Task Pipeline
-![Task Pipeline[](https://raw.githubusercontent.com/KhaAzAs/ETL_Airflow_Bash/main/task_pipeline.png)
+![Task Pipeline](https://raw.githubusercontent.com/KhaAzAs/ETL_Airflow_Bash/main/task_pipeline.png)
 ### Submit the DAG
 ![Submitting the DAG](https://raw.githubusercontent.com/KhaAzAs/ETL_Airflow_Bash/main/submit_dag.png)
 ### Unpause the DAG
