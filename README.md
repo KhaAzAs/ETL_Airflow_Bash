@@ -5,11 +5,11 @@ As a data engineer at a data analytics consulting company. I have been assigned 
 
 ## Objectives
 In this assignment I will author an Apache Airflow DAG that will:
-* Extract data from a csv file
-* Extract data from a tsv file
-* Extract data from a fixed width file
-* Transform the data
-* Load the transformed data into the staging area
+* Extract data from a csv file.
+* Extract data from a tsv file.
+* Extract data from a fixed width file.
+* Transform the data.
+* Load the transformed data into the staging area.
 
 ## Airflow Deployment
 ### Task Pipeline
